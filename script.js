@@ -10,7 +10,8 @@ const displayResult = (message) => {
 
 // Test Download Speed
 const testDownloadSpeed = async () => {
-    const testFileUrl = "https://file-examples.com/storage/10MB.zip"; // Public test file
+   const testFileUrl = "https://s3.amazonaws.com/sample-data/public/test-file-1MB.bin"; // 1MB file
+
     const fileSizeInBytes = 10 * 1024 * 1024; // 10MB in bytes
 
     try {
